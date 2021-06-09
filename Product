@@ -1,0 +1,11 @@
+//# Product_Of_Two_Numbers
+//Write a C++ Program to find the product of two numbers entered by the User
+#include<iostream>
+#include<conio.h>
+main()
+{
+	float a , b;
+	std::cout<<"Enter two numbers  : ";
+	std::cin>>a>>b;
+	std::cout<<"\nProduct = "<<a*b;
+}
